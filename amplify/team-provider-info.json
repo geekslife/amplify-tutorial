@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-dev-172512-authRole",
+      "UnauthRoleArn": "arn:aws:iam::653042670338:role/amplify-amplifyapp-dev-172512-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::653042670338:role/amplify-amplifyapp-dev-172512-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-amplifyapp-dev-172512-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-dev-172512-unauthRole",
+      "StackName": "amplify-amplifyapp-dev-172512",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:653042670338:stack/amplify-amplifyapp-dev-172512/93c13c20-2e2e-11eb-ab0e-0294d3d13706",
+      "AmplifyAppId": "d19p7pfdcffxph"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d19p7pfdcffxph",
+          "type": "manual"
+        }
+      },
+      "storage": {
+        "amplifyapp0f573b2e": {
+          "bucketName": "hli-static-api-test",
+          "region": "ap-northeast-2"
+        }
+      },
+      "auth": {
+        "amplifyapp7f639498": {
+          "userPoolId": "ap-northeast-2_IGdADGi0q",
+          "userPoolName": "hli-static-api-test",
+          "webClientId": "b8oufjr49b2brbhliqfkecm71",
+          "nativeClientId": "5ppqdpae8cjg6uh8542j05epo1",
+          "identityPoolId": "ap-northeast-2:34d5ccf9-1ccd-4650-b0ff-dd683288cd68",
+          "identityPoolName": "hli_static_api_test_ip",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::653042670338:role/Cognito_hli_static_api_testAuth_Role",
+          "authRoleName": "Cognito_hli_static_api_testAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::653042670338:role/Cognito_hli_static_api_testUnauth_Role",
+          "unauthRoleName": "Cognito_hli_static_api_testUnauth_Role"
+        }
+      }
+    }
+  }
+}
